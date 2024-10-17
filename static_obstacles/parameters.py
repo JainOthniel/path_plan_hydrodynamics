@@ -7,6 +7,7 @@ enter position_array as the relatiuve position of the obstacle wrt Robot
 import numpy as np 
 from dataclasses import dataclass
 
+
 # 
 @dataclass
 class Parameters:

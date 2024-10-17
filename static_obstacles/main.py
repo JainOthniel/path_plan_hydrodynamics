@@ -11,6 +11,7 @@ np.set_printoptions(suppress=True)
 
 
 
+
 def velocity_robot(t, r_d, param: Parameters, mobility_fun: Mobility_Functions) -> np.ndarray:
     
     param.position_robot = r_d
