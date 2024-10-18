@@ -1,3 +1,5 @@
+""" parameters file in static obstacle main branch - static_obstacles"""
+
 """
 Paramter object defines the variable required for entry in the 
 U (velocity ) equation.
