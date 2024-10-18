@@ -1,3 +1,6 @@
+
+""" main file in path_plan_hydrodynamics """
+
 import numpy as np 
 from parameters import Parameters
 from mobility_functions import Mobility_Functions
@@ -109,10 +112,6 @@ def main():
     plt.tight_layout()
     # plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.05)
     plt.show()
-    
-if __name__ == '__main__': 
-    main()
-    
     
     
      """ plotting -2D """
