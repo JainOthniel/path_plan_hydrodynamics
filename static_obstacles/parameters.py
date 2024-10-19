@@ -78,4 +78,5 @@ class Parameters:
         return np.tile(np.eye(self.position_array.shape[1]), (self.position_array.shape[0], 1, 1))#(self.position_array.shape[0], self.position_array.shape[1], 1, 1))
         
 
-    
+if __name__ == "__main__":
+    main()    
