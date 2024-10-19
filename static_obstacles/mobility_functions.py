@@ -110,3 +110,6 @@ class Mobility_Functions:
     @property
     def B21(self) -> np.ndarray:
         return self.B_alp_bet(self.s, 1 / self.la)
+
+if __name__ == "__main__":
+    main()
