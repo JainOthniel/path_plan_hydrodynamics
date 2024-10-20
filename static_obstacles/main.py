@@ -66,7 +66,7 @@ def main():
     U_robo_magn = np.linalg.norm(vel,ord=2,axis=0)
     tspan = (0,6_00_000)
     t_eval = np.arange(0,6_00_000,1)
-
+    traje = solve_ivp(velocity_robot, tspan, r_d, method='RK45', t_eval=t_eval, args=(param, mob_fun))
     
     fig = plt.figure(figsize=(10, 8))
     ax = fig.add_subplot(111, projection='3d')
@@ -116,9 +116,7 @@ def main():
 if __name__ == '__main__': 
     main()
     
-    
-    
-     """ plotting -2D """
+""" plotting -2D """
     
 #     plt.figure(figsize=(10, 6))
 
